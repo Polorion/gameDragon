@@ -1,0 +1,145 @@
+.body {
+  width: 100%;
+  height: 100%;
+  background-image: url("./src/assets/img/BackgroundEnd.webp");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.All {
+  position: absolute;
+  left: 23%;
+  top: 5%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleOver {
+  font-family: 'Gilroy';
+  font-weight: 500;
+}
+
+.title {
+  font-size: 4vw;
+  font-weight: 900;
+  color: white;
+  width: 100%;
+  display: flex;
+  margin-bottom: 32%;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 100;
+  justify-content: center;
+
+
+  div {
+  }
+}
+
+.elka {
+  position: absolute;
+  top: 23%;
+  left: 34%;
+  height: 72%;
+  width: 29%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.dis {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.text {
+  font-size: 2vw;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 100;
+
+
+  div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+  }
+
+  button {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 2vw;
+    padding: 1% 5%;
+    color: white;
+    background-color: #dd3425;
+    border: none;
+    border-radius: 100px;
+
+
+  }
+}
+
+.info {
+  color: white;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  font-family: 'Gilroy';
+  font-weight: 500;
+}
+
+.getBonus {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bonusTitle {
+  font-size: 3vw;
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
+  font-family: 'Gilroy';
+  font-weight: 500;
+}
+
+.number {
+  margin-bottom: 5%;
+
+  input {
+    font-size: 2vw;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    padding: 3% 5%;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+  }
+}
+
+.getBonusBTN {
+  font-size: 2vw;
+  padding: 3% 10%;
+  color: white;
+  background-color: #dd3425;
+  border: none;
+  border-radius: 100px;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-bottom: 5%;
+  font-family: 'Gilroy';
+  font-weight: 500;
+}

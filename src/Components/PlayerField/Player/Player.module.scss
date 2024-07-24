@@ -1,0 +1,19 @@
+.body {
+  position: relative;
+  height: 100%;
+  width: 16%;
+  z-index: 999999999999999;
+}
+
+.player {
+  height: 100%;
+  width: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.center {
+  width: 120% ;
+}
